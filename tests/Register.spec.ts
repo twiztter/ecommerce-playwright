@@ -1,5 +1,5 @@
 import { test, expect } from "@playwright/test";
-import { RegisterPage } from "./Pages/register";
+import { RegisterPage } from "./Pages/Register";
 
 test("Register new user", async ({ page }) => {
     await test.step('Goto the website', async () => {
